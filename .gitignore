@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Environment variables
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+pgdata/
+redisdata/
+
+# VS Code / IDE files
+.vscode/
+.idea/
+
+# SSL certificates (optional, can keep local)
+ssl/certs/
+ssl/private/
+
+# System files
+.DS_Store
+Thumbs.db
